@@ -25,7 +25,12 @@ SECRET_KEY = 'k9gwcfq01xszx2(_4e#gc3u$rt=)y6ivx=$wt+5&-^ktk4dg4e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "localhost",
+    "84.201.168.39",
+    "evgeniykolesnikov.ru",
+    "www.evgeniykolesnikov.ru"
+]
 
 
 # Application definition
